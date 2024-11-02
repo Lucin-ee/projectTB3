@@ -9,11 +9,11 @@ import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
-
+//trying  a new commit method
 @Configuration
 @EnableWebSecurity
 public class SpringSecurityConfig {
-
+//some changes
     public static final String ROLE_USER = "USER";
     public static final String ROLE_ADMIN = "ADMIN";
 
